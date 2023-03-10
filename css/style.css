@@ -1,0 +1,249 @@
+* {
+    box-sizing: content-box;
+}
+
+.navbar {
+    padding: 10px 30px;
+}
+
+.navbar-brand {
+       color: blueviolet;
+}
+
+.navbar-brand .bi-laptop {
+    font-size: 2.05rem;
+}
+
+.navbar-brand span {
+    font-size: 1.58rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 0.98rem;
+}
+
+.nav-link:hover {
+    color: blueviolet;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-toggler {
+        border: 1px solid blueviolet;
+    }
+
+    .navbar-toggler-icon {
+        border: 1px solid blueviolet;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28138, 43, 226, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+    }
+}
+
+/*
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        position: absolute;
+        top: 0;
+        right: 0;
+        align: middle;
+    }
+
+    .bi-laptop {
+        display: none;
+    }
+}
+*/
+
+/*  Seccion Hero    */
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: green;
+    background-size: cover;
+    height: 85vh;
+    width: 100%;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 4.8em;
+    color: white;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+
+.hero .btn {
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding-left:  30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+
+.hero .btn:hover {
+    background-color: rgb(101, 33, 165);
+}
+
+/*  Seccion Somos Programa Ya   */
+.programa-ya {
+    background-color: white;
+    padding: 3.5rem;
+}
+
+.programa-ya .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.columna-programa-ya {
+    background-image: url("../img/somos-proya.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 350px;
+}
+
+.columna-programa-texto {
+    text-align: initial;
+}
+
+.columna-programa-texto h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.columna-programa-texto p {
+    font-size: 1.2rem;
+}
+
+.programa-ya span {
+    color: blueviolet;
+}
+
+@media screen and (max-width: 991px) {
+    .columna-programa-texto {
+        text-align: center;
+    }
+}
+
+
+/*  Seccion Cursos  */
+
+.cursos {
+    color: white;
+    background-color: rgb(30, 30, 30);
+    padding-bottom: 100px;
+}
+
+.cursos h1 {
+    padding: 4rem;
+}
+
+/*.cursos .container {
+    border : 3px solid yellow;
+}*/
+
+.col {
+    border-radius: 15px;
+    min-height: 480px;
+}
+
+.tarjeta:nth-child(1) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/front-end.jpg");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.tarjeta:nth-child(2) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/full-stack.jpg");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.tarjeta:nth-child(3) {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/python.jpg");
+    background-size: 100% 150px;
+    background-repeat: no-repeat;
+    background-color: rgba(50, 50, 50, 1);
+}
+
+.tarjeta .h2 {
+    font-size: 2em;
+}
+
+.tarjeta .btn {
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.0em;
+    font-weight: bold;
+    padding-left:  30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+
+/*  Seccion Caracteristicas     */
+.caracteristicas {
+    padding: 4rem;
+}
+
+.imagen-caracteristicas {
+    max-width: 420px;
+    max-height: 300px;
+}
+
+.caracteristicas li {
+    font-size: 1.20rem;
+    font-weight: bold;
+    list-style: none;
+}
+
+/*  Seccion Final   */
+.final {
+    color: white;
+    background-color: rgb(30, 30, 30);
+    height: 80vh;
+    width: 100%;
+}
+
+.final h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+
+.final .btn {
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.75em;
+    font-weight: bold;
+    padding-left:  30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+
+.final .btn:hover {
+    background-color: rgb(101, 33, 165);
+}
+
+
+/*  Seccion Footer   */
+
+.container-footer span {
+    height: 1.5rem;
+    padding-top: 3.5rem;
+}
